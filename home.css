@@ -4,10 +4,9 @@ h1 {
     margin: 0;
     display:inline;
     float: left;
-    background-color: #cdcdcd;
-    color:greenyellow;
-    margin: 0;
-    padding: 10px;
+    color:green;
+    margin: 10px;
+
 }
 
 
@@ -20,11 +19,9 @@ h1 {
 
 #banner ul {
     list-style-type: none;
-    margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #cdcdcd;
-    
+   
   }
   
 #banner li  {
@@ -32,7 +29,7 @@ h1 {
   }
 #banner li a {
     display: block;
-    color:greenyellow;
+    color:green;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,3 +39,12 @@ h1 {
 #banner li a:hover {
     background-color: #111;
   }
+
+
+.hero-image{
+  background-image: url(images/ducks2.jpg);
+  height: 70vh;
+  background-size: 100% 100%;
+  width: 800px;
+  margin: 0 auto;
+}
