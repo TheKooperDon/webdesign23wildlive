@@ -1,33 +1,44 @@
-h1{
-    font-size: 40px;
+h1 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0;
+    display:inline;
+    float: left;
+    background-color: #cdcdcd;
+    color:greenyellow;
+    margin: 0;
+    padding: 10px;
 }
+
 
 .wrapper{
     width: 800px;
     margin: 0 auto;
-
+    background-color: bisque;
+    
 }
 
-#menu ul {
+#banner ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #cdcdcd;
+    
   }
   
-#menu li  {
+#banner li  {
     float: right;  
   }
-#menu  li a {
+#banner li a {
     display: block;
-    color: white;
+    color:greenyellow;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   /* Change the link color to #111 (black) on hover */
-#menu   li a:hover {
+#banner li a:hover {
     background-color: #111;
   }
