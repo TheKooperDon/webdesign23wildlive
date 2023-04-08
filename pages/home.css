@@ -68,3 +68,28 @@ ul{
 li{
   display:inline;
 }
+
+/* Meet the Team */
+
+.three-column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member{
+  margin: 0 10px;
+  text-align: center;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 200px;
+  
+  object-fit: cover;
+  object-position: center;
+}
+
+.member figcaption {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
