@@ -1,6 +1,8 @@
+/*GLOBAL STYLES*/
 html {
 	font-size: 1em;
 }
+/*LAYOUT*/
 body {
 	margin: 0;
 	background-color: #fafafa;
@@ -16,15 +18,14 @@ body {
 main {
 	background-color: #181818;
 }
+/*SPECIAL LAYOUTS*/
 
-
-
+/*contact us form*/
 form {
 	width: 500px;
 	margin-left: 150px;
 	padding-bottom: 40px;
 }
-
 input {
 	display: inline-block;
 	border: 0;
@@ -33,6 +34,7 @@ input {
 	width: 150px;
 	border-radius: 14px;
 }
+
 label {
 	display: inline-block;
 	margin: 15px 0 5px 0;
@@ -57,3 +59,16 @@ button {
 	background-color: #7bbc1a;
 	color: #fafafa;
 }
+/*LINKS AND NAV*/
+/*FONTS AND TYPEOGRAPHY*/
+/*IMAGES*/
+/*UTILITES*/
+
+
+
+
+
+
+
+
+
