@@ -2,13 +2,15 @@
 html {
 	font-size: 1em;
 }
-/*LAYOUT*/
+
 body {
 	margin: 0;
 	background-color: #fafafa;
 	color: #9e9e9e;
 	font-family: 'Barlow Condensed', sans-serif;
 }
+/*LAYOUT*/
+
 
 .wrapper {
 	width: 800px;
@@ -61,7 +63,28 @@ button {
 }
 /*LINKS AND NAV*/
 /*FONTS AND TYPEOGRAPHY*/
+.about-us .page-name {
+	position: relative;
+	top: 200px;
+	font-size: 5rem;
+	color: white;
+}
+
 /*IMAGES*/
+.hero-image{
+	height: 300px;
+	
+  	background-position: center;
+
+
+}
+.home .hero-image{
+	background-image: url('../images/ducksflying.png');
+}
+
+.about-us .hero-image{
+	background-image: url('../images/ducksflying.png');
+}
 /*UTILITES*/
 
 
