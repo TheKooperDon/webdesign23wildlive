@@ -89,24 +89,31 @@ button {
 
 
 
-.team {
-	display: flex;
+.three-column {
+	display: inline;
 	justify-content: center;
+	
 	align-items: center;
+	flex-wrap: wrap;
+	
   }
   
 .member {
 	margin: 0 10px;
 	text-align: center;
+	
   }
   
-  .member img {
-	border-radius: 50%;
+.member img {
+	border-radius: 25%; 
 	width: 100px;
 	height: 100px;
-	object-fit: cover;
-	object-position: center;
-  }
+	
+
+}
+	/*object-fit: cover; */
+	/*object-position: center; /*
+  
   
   .member h3 {
 	font-size: 1.2em;
