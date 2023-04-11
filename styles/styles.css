@@ -7,10 +7,15 @@ body {
 	margin: 0;
 	background-color: #fafafa;
 	color: #9e9e9e;
-	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 'arial', sans-serif;
+	
 }
 .site-id {
-	font-size: 2rem; 
+	float: left;
+	font-size: 3rem; 
+	color: #7bbc1a;
+	padding-top: 7px;
+	margin: 0;
   }
 /*LAYOUT*/
 
@@ -24,12 +29,9 @@ main {
 	background-color: #181818;
 }
 
-#banner{
-	display: flex;
-	justify-content: space-between;
-  	align-items: center;
+#banner {
+	padding-bottom: 7px;
 }
-
 
 /*SPECIAL LAYOUTS*/
 
@@ -80,15 +82,21 @@ button {
 
 /*LINKS AND NAV*/
 
+#menu{
+	padding-top: 30px;
+}
+
 #menu ul{
-	display: flex;
+
+
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
+	text-align: right;
 	
 }
-#menu ul li {
+#menu li {
+	display: inline-block;
 	margin: 0 10px;
 	
   }
@@ -103,11 +111,23 @@ button {
 
 
 /*FONTS AND TYPEOGRAPHY*/
+
+h1, h2, h3 {
+	font-family: 'Aptly', sans-serif;
+}
 .about-us .page-name {
 	position: relative;
 	top: 200px;
 	font-size: 5rem;
 	color: white;
+}
+.page-name{
+	color: white;
+}
+
+
+.page-name span{
+	color: #7bbc1a;
 }
 
 /*IMAGES*/
@@ -128,14 +148,14 @@ button {
 
 /*Head-Shot CSS */
 .three-column {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	column-gap: 5%;
 	
-	
+
   }
   
-.member {
+figure.member {
 	
 	margin: 0 20px;
 	text-align: center;
@@ -146,8 +166,9 @@ button {
 .member img {
 	
 	border-radius: 25%; 
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	padding-bottom: 10px
+	
 	
 /*END Head-Shot DONE*/
 
