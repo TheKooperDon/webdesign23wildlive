@@ -35,6 +35,10 @@ main {
 
 /*SPECIAL LAYOUTS*/
 
+.home article {
+	padding-top: 120px;
+}
+
 /*contact us form*/
 form {
 	width: 500px;
@@ -138,16 +142,15 @@ h1, h2, h3 {
 }
 
 .intro-title{
-	top:200px;
 	
+	position: relative;
+	top:210px;
+	font-size: 3em;
 	color: white;
 }
 
 
-.home .intro-title{
-	display: inline;
-	
-}
+
 
 /*IMAGES*/
 .hero-image{
