@@ -162,7 +162,7 @@ h1, h2, h3 {
 }
 .home .hero-image{
 	background-image: url('../images/turkey-banner.jpg');
-	filter: brightness(70%);
+	
 }
 
 .home .hero-image{
