@@ -20,16 +20,7 @@ body {
 	
   }
 
- .home-site-id {
-	float: center;
-	font-size: 3rem; 
-	color: #7bbc1a;
-	padding-top: 7px;
-	margin: 0;
-	padding-left: 10px;
-	
 
-}
 
 
 /*LAYOUT*/
@@ -95,6 +86,17 @@ button {
 	color: #fafafa;
 }
 
+.home-site-id {
+	float: center;
+	font-size: 3rem; 
+	color: #7bbc1a;
+	padding-top: 7px;
+	margin: 0;
+	padding-left: 10px;
+	
+
+}
+
 /* end contact form end*/
 
 
@@ -119,6 +121,7 @@ button {
 	text-align: right;
 	
 }
+
 #menu li {
 	display: inline-block;
 	margin: 0 10px;
@@ -126,7 +129,7 @@ button {
 	
   }
 
-  #menu a {
+#menu a {
 	text-decoration: none;
 	color: #7bbc1a;
 
@@ -136,11 +139,42 @@ button {
 	color:black;
 	
 }
+
 #menu a:active{
 	color: blue;
 }
 
+/*FOOTER*/
+#colophon{
+	color: #7bbc1a;
+	text-align: center;
+	
+}
 
+#colophon .site-id {
+    /* Apply desired positioning */
+    /* For example: move it to the right */
+	display:inline;
+    text-align: center;
+	
+	
+	
+}
+
+#colophon ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#colophon li{
+	display: inline-block;
+}
+
+
+/*END OF FOOTER*/
 
 
 
