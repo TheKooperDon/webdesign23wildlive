@@ -11,6 +11,16 @@ body {
 	
 }
 .site-id {
+	float: left;
+	font-size: 3rem; 
+	color: #7bbc1a;
+	padding-top: 7px;
+	margin: 0;
+	
+	
+  }
+
+ .home-site-id {
 	float: center;
 	font-size: 3rem; 
 	color: #7bbc1a;
@@ -18,7 +28,8 @@ body {
 	margin: 0;
 	padding-left: 10px;
 	
-  }
+
+}
 
 
 /*LAYOUT*/
