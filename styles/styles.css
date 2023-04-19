@@ -189,6 +189,12 @@ button {
 h1, h2, h3 {
 	font-family: 'Aptly', sans-serif;
 }
+.info-text h2{
+	color: #7bbc1a;
+	font-size: 3em;
+	
+}
+
 .about-us .page-name {
 	position: relative;
 	top: 200px;
