@@ -267,6 +267,18 @@ h1, h2, h3 {
 	
 }
 
+/*SOLUTIONS IMGS*/
+.showcase img{
+	width: 400px;
+	
+	
+}
+.info{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+
 /*Head-Shot CSS */
 .three-column {
 	display: grid;
@@ -290,6 +302,8 @@ figure.member {
 	width: 100%;
 	padding-bottom: 10px;
 	height: 200px;
+
+}
 	
 /*END Head-Shot DONE*/
 
@@ -300,7 +314,7 @@ figure.member {
 
 	
 
-}
+
 	/*object-fit: cover; */
 	/*object-position: center; /*
   
