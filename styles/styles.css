@@ -181,6 +181,11 @@ button {
 	
 }
 
+#colophon a{
+	display: inline-block;
+	color: maroon;
+}
+
 .bottom-footer{
 	margin-bottom: 30px;
 }
