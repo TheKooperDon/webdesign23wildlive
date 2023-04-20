@@ -41,9 +41,11 @@ main {
 	background-color: #181818;
 }
 
-#banner {
+#banner  {
 	padding-bottom: 20px;
+	margin: 0;
 }
+
 
 
 
@@ -243,20 +245,16 @@ h1, h2, h3 {
 /*IMAGES*/
 .hero-image{
 	height: 300px;
-	
   	background-position: center;
 
 
 }
-.home .hero-image{
-	background-image: url('../images/giraffe-tint.jpg');
-	
-}
+
 
 .home .hero-image{
-	height: 300px;
+	
 	background-image: url('../images/giraffe-tint.jpg');
-	background-position: center center;
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -265,15 +263,16 @@ h1, h2, h3 {
 }
 
 .about-us .hero-image{
-	height: 300px;
+	
 	background-image: url('../images/ducksflying.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 .solutions .hero-image{
-	height: 300px;
+	
 	background-image: url('../images/deer.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
