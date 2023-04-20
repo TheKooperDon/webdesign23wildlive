@@ -158,8 +158,12 @@ button {
 }
 
 /*FOOTER*/
-#colophon{
+.site-id-footer{
 	color: #7bbc1a;
+	font-size: 2em;
+}
+#colophon{
+	color: black;
 	text-align: center;
 	
 }
@@ -182,10 +186,15 @@ button {
 }
 
 #colophon a{
-	display: inline-block;
-	color: maroon;
+	text-decoration: none;
+	color: black;
+	margin: 0;
 }
-
+#colophon a:hover,
+#colophon .current a {
+	color:#7bbc1a;
+	
+}
 .bottom-footer{
 	margin-bottom: 30px;
 }
