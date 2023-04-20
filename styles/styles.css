@@ -269,7 +269,7 @@ h1, h2, h3 {
 
 .my-link {
 	color: #7bbc1a;
-	text-decoration: none;
+	text-decoration: underline;
   }
   
   .my-link:hover {
