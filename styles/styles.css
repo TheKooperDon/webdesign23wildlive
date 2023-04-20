@@ -196,13 +196,18 @@ h1, h2, h3 {
 	font-family: 'Aptly', sans-serif;
 }
 .info-text h2,
-.content h2{
-	color: #7bbc1a;
+.content h2 {
 	font-size: 3em;
-	
+	color: #7bbc1a;
+}
+.contact-us .page-name{
+	margin: 0px;
+	padding-top: 20px;
+	font-size: 3rem;
 }
 
 .about-us .page-name {
+	margin: 0px;
 	position: relative;
 	top: 200px;
 	font-size: 5rem;
@@ -210,19 +215,18 @@ h1, h2, h3 {
 }
 
 .solutions .page-name {
+	margin: 0px;
 	position: relative;
 	top: 200px;
 	font-size: 5rem;
 	color: white;
 }
 .page-name{
-	color: white;
-}
-
-
-.page-name span{
 	color: #7bbc1a;
 }
+
+
+
 
 .intro-title{
 	clear: both;
