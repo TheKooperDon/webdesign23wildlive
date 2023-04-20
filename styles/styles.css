@@ -74,6 +74,9 @@ input {
 label {
 	display: inline-block;
 	margin: 15px 0 5px 0;
+	color: #7bbc1a;
+	
+
 }
 
 textarea {
@@ -96,7 +99,8 @@ button {
 	color: #fafafa;
 }
 
-.contact-button {
+.contact-button,
+.contact-text {
 	font-family: 'Aptly', sans-serif;
 	letter-spacing: 1px;
 	color:black
